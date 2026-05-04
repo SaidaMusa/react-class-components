@@ -96,12 +96,12 @@ class App extends Component<{}, State> {
         <div className="app">
           <div className="container">
 
-            {/* TOP SECTION */}
+           
             <header className="top-controls">
               <Search onSearch={this.handleSearch} />
             </header>
 
-            {/* RESULTS SECTION */}
+        
             <main className="content">
 
               {this.state.loading && <Loader />}
